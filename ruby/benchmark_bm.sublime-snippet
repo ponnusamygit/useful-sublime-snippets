@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Benchmark.bm do |results|
+  results.report('${1:Report1}') do
+  	${2:# Benchmark code}
+  end
+end
+]]></content>
+	<tabTrigger>bbm</tabTrigger>
+	<scope>source.ruby</scope>
+	<description>Ruby Benchmark bm method</description>	
+</snippet>
