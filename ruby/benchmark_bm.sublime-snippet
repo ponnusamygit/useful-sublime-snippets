@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-Benchmark.bm do |results|
-  results.report('${1:Report1}') do
+Benchmark.bm do |bm|
+  bm.report('${1:Report1}') do
   	${2:# Benchmark code}
   end
 end
