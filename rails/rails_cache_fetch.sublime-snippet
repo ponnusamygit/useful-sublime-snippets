@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Rails.cache.fetch("${1:Cache ID}", :expires_in => ${2:1.day}) do
+  ${3:# Code Block}
+end
+]]></content>
+  <tabTrigger>rc</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>
